@@ -1,0 +1,25 @@
+{
+    "name": "crashcourse",
+    "version": "1.0.0",
+    "description": "node crash course",
+    "main": "9-eventLoop.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "keywords": [
+        "node",
+        "express",
+        "crashcourse"
+    ],
+    "author": "sai bharadwaj",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1",
+        "lodash": "^4.17.21",
+        "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
